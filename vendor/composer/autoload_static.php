@@ -15,6 +15,10 @@ class ComposerStaticInitf7e9b5f946f7ec9110439346d71c9f07
         array (
             'Midtrans\\' => 9,
         ),
+        'A' =>
+        array (
+            'Appwrite\\' => 9,
+        ),
     );
 
     public static $prefixDirsPsr4 = array (
@@ -25,6 +29,10 @@ class ComposerStaticInitf7e9b5f946f7ec9110439346d71c9f07
         'Midtrans\\' =>
         array (
             0 => __DIR__ . '/..' . '/midtrans/midtrans-php/Midtrans',
+        ),
+        'Appwrite\\' =>
+        array (
+            0 => __DIR__ . '/..' . '/appwrite/appwrite/src/Appwrite',
         ),
     );
 

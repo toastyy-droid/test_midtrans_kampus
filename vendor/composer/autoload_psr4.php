@@ -8,4 +8,5 @@ $baseDir = dirname($vendorDir);
 return array(
     'SnapBi\\' => array($vendorDir . '/midtrans/midtrans-php/SnapBi'),
     'Midtrans\\' => array($vendorDir . '/midtrans/midtrans-php/Midtrans'),
+    'Appwrite\\' => array($vendorDir . '/appwrite/appwrite/src/Appwrite'),
 );

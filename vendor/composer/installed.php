@@ -1,9 +1,9 @@
 <?php return array(
     'root' => array(
         'name' => '__root__',
-        'pretty_version' => '1.0.0+no-version-set',
-        'version' => '1.0.0.0',
-        'reference' => null,
+        'pretty_version' => 'dev-main',
+        'version' => 'dev-main',
+        'reference' => 'b06cd1b6516a0b52fe1f256164e78ddad257b772',
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -11,11 +11,20 @@
     ),
     'versions' => array(
         '__root__' => array(
-            'pretty_version' => '1.0.0+no-version-set',
-            'version' => '1.0.0.0',
-            'reference' => null,
+            'pretty_version' => 'dev-main',
+            'version' => 'dev-main',
+            'reference' => 'b06cd1b6516a0b52fe1f256164e78ddad257b772',
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'appwrite/appwrite' => array(
+            'pretty_version' => '21.0.0',
+            'version' => '21.0.0.0',
+            'reference' => 'ac56e790734ce16185ec0754a1598157c34a5d32',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../appwrite/appwrite',
             'aliases' => array(),
             'dev_requirement' => false,
         ),
