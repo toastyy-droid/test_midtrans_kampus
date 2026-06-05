@@ -1,4 +1,5 @@
 <?php
+echo "Webhook OK";
 require_once dirname(__FILE__) . '/vendor/autoload.php';
 require_once 'env.php';
 
