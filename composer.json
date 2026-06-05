@@ -1,5 +1,10 @@
 {
     "require": {
-        "midtrans/midtrans-php": "^2.6"
+        "midtrans/midtrans-php": "^2.6",
+        "appwrite/appwrite": "^7.0"
+    },
+    "scripts": {
+        "build": "echo 'no build step required'"
+      }
     }
-}
+
